@@ -605,7 +605,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan5_Modul5/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan5_Modul5/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
 
 Program C++ ini mengimplementasikan algoritma *Binary Search* pada struktur *Singly Linked List* untuk mencari nilai tertentu secara efisien. Fungsi `append()` digunakan untuk menambahkan node di akhir list, `printList()` menampilkan isi list, sedangkan `binarySearch()` memanfaatkan fungsi `middleNode()` untuk menemukan elemen tengah pada setiap iterasi. Proses pencarian dilakukan dengan membandingkan nilai tengah terhadap kunci, lalu membatasi ruang pencarian ke kiri atau kanan hingga elemen ditemukan atau habis. Program menampilkan proses pencarian, hasil, dan informasi node yang ditemukan.
 
@@ -710,7 +710,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan5_Modul5/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan5_Modul5/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini menerapkan algoritma *Linear Search* pada struktur *Singly Linked List* untuk mencari nilai tertentu secara berurutan dari node pertama hingga terakhir. Fungsi `append()` digunakan untuk menambah node baru, `printList()` menampilkan isi list, dan `linearSearch()` melakukan pemeriksaan setiap node sambil menampilkan proses pencarian. Jika nilai ditemukan, program menampilkan data node beserta alamat memorinya; jika tidak, ditampilkan pesan bahwa nilai tidak ditemukan.
 
@@ -729,4 +729,4 @@ Pada praktikum modul 5 ini, dipelajari konsep dan implementasi algoritma *search
 **PDF:** [Unduh](https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/download/2261/840/16799)  **Laman jurnal:** [J-PTIIK UB](https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/2261)
 
 [4] Ramadhan, H., Fauziah, & Lantana, D. A. (2023). **Perbandingan Algoritma Binary Search dan Sequential Search untuk Pencarian Persediaan Stok Barang Berbasis Web.” *STRING (Satuan Tulisan Riset dan Inovasi Teknologi)**, 8(2), 125-132.  
-**PDF**: [https://www.journal.lppmunindra.ac.id/index.php/STRING/article/download/16475/6178] 
+**PDF**: [Unduh](https://www.journal.lppmunindra.ac.id/index.php/STRING/article/download/16475/6178) 
