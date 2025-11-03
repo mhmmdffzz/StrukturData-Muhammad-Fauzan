@@ -16,9 +16,9 @@ Dalam praktiknya, DLL sering digunakan dalam berbagai aplikasi seperti sistem *u
 
 Beberapa operasi utama yang dapat dilakukan pada Double Linked List meliputi:
 
-1. **Insert** = Menyisipkan elemen baru di awal, akhir, atau di tengah list dengan memperbarui pointer `next` dan `prev` pada node yang terkait [2].  
-2. **Delete** = Menghapus elemen tertentu dengan mengubah hubungan antar-node sehingga node yang dihapus tidak lagi terhubung dengan list [3].  
-3. **Traversal** = Menelusuri seluruh node dalam list, baik dari depan ke belakang maupun sebaliknya, untuk membaca atau memproses data [1].  
+1. **Insert** - Menyisipkan elemen baru di awal, akhir, atau di tengah list dengan memperbarui pointer `next` dan `prev` pada node yang terkait [2].  
+2. **Delete** - Menghapus elemen tertentu dengan mengubah hubungan antar-node sehingga node yang dihapus tidak lagi terhubung dengan list [3].  
+3. **Traversal** - Menelusuri seluruh node dalam list, baik dari depan ke belakang maupun sebaliknya, untuk membaca atau memproses data [1].  
 
 Operasi delete pada DLL harus dilakukan dengan hati-hati untuk memastikan pointer `next` dan `prev` diperbarui secara benar. Kesalahan pada proses ini dapat menyebabkan kehilangan akses terhadap node lain atau bahkan *memory leak* [3]. Untuk mengurangi kompleksitas dan meminimalkan kesalahan, beberapa implementasi DLL juga menggunakan *sentinel node* sebagai penanda awal dan akhir list sehingga tidak perlu pemeriksaan kondisi khusus seperti list kosong [4].
 
