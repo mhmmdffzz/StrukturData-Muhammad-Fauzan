@@ -766,7 +766,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
 
 Program C++ ini mengimplementasikan proses **penambahan data kendaraan** pada struktur **Doubly Linked List**, 
 dengan fitur untuk **mencegah duplikasi nomor polisi**. Setiap data kendaraan yang dimasukkan oleh pengguna 
@@ -972,7 +972,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini mengimplementasikan proses pencarian data pada struktur **Doubly Linked List** berdasarkan 
 nomor polisi kendaraan yang dimasukkan oleh pengguna. Pada contoh ini, data yang dicari memiliki nomor 
@@ -1166,7 +1166,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided3.pn)
 
 Program C++ ini mengimplementasikan proses penghapusan elemen pada struktur data linked list berdasarkan 
 nomor polisi kendaraan yang diinputkan oleh pengguna. Dalam kasus ini, data yang akan dihapus memiliki 
