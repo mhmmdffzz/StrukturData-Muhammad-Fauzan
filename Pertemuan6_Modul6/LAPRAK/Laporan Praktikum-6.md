@@ -1166,7 +1166,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided3.pn)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan6_Modul6/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
 
 Program C++ ini mengimplementasikan proses penghapusan elemen pada struktur data linked list berdasarkan 
 nomor polisi kendaraan yang diinputkan oleh pengguna. Dalam kasus ini, data yang akan dihapus memiliki 
