@@ -4,48 +4,47 @@
 ## Dasar Teori
 ### A. Konsep ADT List dan Double Linked List
 
-Abstract Data Type (ADT) List merupakan representasi konseptual dari sekumpulan elemen yang dapat dimanipulasi melalui serangkaian operasi tanpa perlu mengetahui detail implementasi di dalamnya [1]. Salah satu bentuk implementasi dari ADT List adalah **Double Linked List (DLL)**, yang memiliki dua pointer pada setiap node, yaitu `prev` (penunjuk ke node sebelumnya) dan `next` (penunjuk ke node berikutnya). Dengan adanya dua arah penunjuk ini, proses traversal menjadi lebih fleksibel dan efisien, terutama untuk operasi penyisipan atau penghapusan elemen di tengah list [2].
+Abstract Data Type (ADT) List merupakan representasi abstrak dari kumpulan elemen yang dapat dikelola melalui operasi tertentu tanpa memperhatikan detail implementasi penyimpanan datanya [1]. Salah satu implementasi dari ADT List adalah **Double Linked List (DLL)**, yaitu struktur data dinamis yang setiap node-nya memiliki dua pointer: `prev` yang menunjuk ke node sebelumnya dan `next` yang menunjuk ke node berikutnya. Dengan dua arah penunjuk ini, proses traversal menjadi lebih fleksibel dan memudahkan pengaksesan data baik dari awal maupun dari akhir list [2].
 
-Double Linked List biasanya terdiri dari tiga komponen utama: data, pointer ke node sebelumnya, dan pointer ke node berikutnya. Struktur ini memungkinkan pengaksesan data baik dari depan maupun dari belakang secara langsung. Berbeda dengan *singly linked list* yang hanya dapat bergerak satu arah, DLL memudahkan operasi seperti *delete* karena tidak perlu menelusuri list dari awal untuk menemukan node sebelumnya [3].
-
-Dalam praktiknya, DLL sering digunakan dalam berbagai aplikasi seperti sistem *undo-redo*, riwayat navigasi (*navigation history*), serta manajemen memori dinamis. Kemampuannya untuk berpindah dua arah menjadikan struktur ini ideal untuk konteks yang membutuhkan fleksibilitas tinggi dalam manipulasi data [4].
+Struktur DLL terdiri dari tiga komponen utama pada setiap node, yaitu data, pointer ke node sebelum, dan pointer ke node setelahnya. Struktur ini memberikan efisiensi lebih tinggi terutama pada operasi penghapusan dan penyisipan di tengah list, karena tidak memerlukan pencarian node sebelumnya seperti pada *singly linked list* [3]. Dalam berbagai implementasi praktis, DLL juga sering digunakan untuk mendukung fitur-fitur seperti *undo-redo*, navigasi dua arah, dan pengelolaan data yang membutuhkan fleksibilitas tinggi [5].
 
 ---
 
 ### B. Operasi Dasar pada Double Linked List
 
-Beberapa operasi utama yang dapat dilakukan pada Double Linked List meliputi:
+Beberapa operasi penting pada Double Linked List meliputi:
 
-1. **Insert** - Menyisipkan elemen baru di awal, akhir, atau di tengah list dengan memperbarui pointer `next` dan `prev` pada node yang terkait [2].  
-2. **Delete** - Menghapus elemen tertentu dengan mengubah hubungan antar-node sehingga node yang dihapus tidak lagi terhubung dengan list [3].  
-3. **Traversal** - Menelusuri seluruh node dalam list, baik dari depan ke belakang maupun sebaliknya, untuk membaca atau memproses data [1].  
+1. **Insert** — Digunakan untuk menambahkan elemen di awal, akhir, atau di posisi tertentu dalam list. Penyisipan dilakukan dengan mengatur ulang pointer `prev` dan `next` pada node terkait agar tetap konsisten [2].  
+2. **Delete** — Menghapus elemen tertentu dengan memutus hubungan node tersebut terhadap node sebelumnya dan berikutnya. Kesalahan dalam memperbarui pointer dapat menyebabkan *dangling pointer* atau kehilangan akses ke node tertentu [3].  
+3. **Traversal** — Menelusuri elemen list dari depan ke belakang atau sebaliknya. Traversal dua arah menjadi salah satu keunggulan utama DLL dibandingkan *singly linked list* [1].
 
-Operasi delete pada DLL harus dilakukan dengan hati-hati untuk memastikan pointer `next` dan `prev` diperbarui secara benar. Kesalahan pada proses ini dapat menyebabkan kehilangan akses terhadap node lain atau bahkan *memory leak* [3]. Untuk mengurangi kompleksitas dan meminimalkan kesalahan, beberapa implementasi DLL juga menggunakan *sentinel node* sebagai penanda awal dan akhir list sehingga tidak perlu pemeriksaan kondisi khusus seperti list kosong [4].
+Dalam implementasi penghapusan, pointer `next` pada node sebelumnya dan pointer `prev` pada node setelahnya harus diperbarui secara tepat. Jika tidak, struktur list dapat rusak dan menyebabkan *memory leak* atau kehilangan referensi terhadap data [4]. Beberapa implementasi juga menggunakan *sentinel node* untuk menyederhanakan pemeriksaan kondisi awal atau akhir list.
 
 ---
 
 ### C. Kelebihan dan Kekurangan Double Linked List
 
 **Kelebihan:**  
-- Mendukung traversal dua arah.  
-- Efisien untuk operasi penyisipan dan penghapusan di posisi tengah.  
-- Tidak memerlukan traversal dari awal untuk menemukan node sebelumnya.  
+- Mendukung traversal dua arah yang mempermudah proses pengaksesan data.  
+- Efisien untuk operasi penyisipan dan penghapusan di tengah list, karena tidak perlu mencari node sebelumnya [2].  
+- Lebih fleksibel dalam berbagai manipulasi data dinamis.  
 
 **Kekurangan:**  
-- Membutuhkan lebih banyak memori karena menyimpan dua pointer dalam setiap node.  
-- Implementasi relatif lebih kompleks dibanding *singly linked list*.  
-- Berpotensi menimbulkan *dangling pointer* jika penghapusan dilakukan secara tidak benar [2].
+- Membutuhkan memori lebih besar karena setiap node memiliki dua pointer.  
+- Implementasinya lebih kompleks dibanding *singly linked list*.  
+- Risiko *dangling pointer* lebih besar apabila pengelolaan pointer tidak dilakukan dengan benar [3].
 
 ---
 
 ### D. Penerapan Double Linked List dalam Dunia Nyata
 
-Double Linked List banyak digunakan pada sistem komputer dan aplikasi perangkat lunak modern, seperti:  
-- Fitur *undo-redo* pada editor teks.  
+Double Linked List banyak digunakan pada sistem yang membutuhkan navigasi dua arah atau perubahan data secara dinamis. Contohnya meliputi:  
+- Sistem *undo/redo* pada aplikasi editor dokumen atau gambar.  
 - Navigasi *forward-backward* pada web browser.  
-- Pengelolaan *playlist* musik dan penjadwalan tugas (*task scheduling*) pada sistem operasi [3].
+- Struktur *playlist* musik yang memungkinkan perpindahan lagu ke depan dan belakang.  
+- Pengelolaan data perpustakaan dan sistem antrian dinamis [5].
 
-Dalam konteks pembelajaran struktur data, DLL menjadi materi penting karena memberikan pemahaman mendalam tentang bagaimana data disusun dan dimanipulasi secara dinamis di memori komputer. Pemahaman ini juga menjadi dasar dalam desain algoritma yang efisien dan manajemen memori yang aman [4].
+Dalam pembelajaran struktur data, DLL menjadi materi penting untuk memahami bagaimana data diatur secara dinamis dalam memori serta bagaimana pointer bekerja dalam menghubungkan antar-node [2][5].
 
 ---
 
@@ -1189,18 +1188,22 @@ Penerapan konsep Double Linked List juga sangat relevan dalam dunia nyata, seper
 
 
 ## Referensi 
-[1] Nugroho, A. (2020). *Struktur Data dan Algoritma Menggunakan C++*. Yogyakarta: Deepublish.  
-**Materi:** [Deepublish - Struktur Data dan Algoritma Menggunakan C++](https://deepublishstore.com/book/struktur-data-dan-algoritma-menggunakan-c/)  
-**Unduh PDF:** [https://repository.unpas.ac.id/52971/1/struktur-data-cpp.pdf](https://repository.unpas.ac.id/52971/1/struktur-data-cpp.pdf)
+[1]. Politeknik Elektronika Negeri Surabaya (PENS). (t.t.). **Single Linked List - Insert & Delete**. *Materi Struktur Data*.  
+**PDF:** [Unduh](https://tita.lecturer.pens.ac.id/ASD/M4_SLL_Insert/Single%20Linked%20List%20INSERT%20%26%20DELETE.pdf)  
+**Laman materi:** [PENS](https://tita.lecturer.pens.ac.id/ASD/M4_SLL_Insert/Single%20Linked%20List%20INSERT%20%26%20DELETE.pdf)  
 
-[2] Riyanto, D., & Setiawan, H. (2021). *Algoritma dan Struktur Data*. Universitas Bina Sarana Informatika.  
-**Materi:** [Repository UBSI - Algoritma dan Struktur Data](https://repository.bsi.ac.id/index.php/unduh/view/3076)  
-**Unduh PDF:** [https://repository.bsi.ac.id/unduh/view/3076/algoritma-dan-struktur-data.pdf](https://repository.bsi.ac.id/unduh/view/3076/algoritma-dan-struktur-data.pdf)
+[2]. Hasdyna, N., & Dinata, R. K. (2021). **Pembelajaran Struktur Data dalam Pemrograman C++**. Sefa Bumi Persada.  
+**PDF:** [Unduh](https://repository.unimal.ac.id/6709/1/PEMBELAJARAN%20STRUKTUR%20DATA%20DALAM%20PEMROGRAMAN%20C%2B%2B.pdf)  
+**Laman buku:** [Repository Unimal](https://repository.unimal.ac.id/6709/)  
 
-[3] Sari, D. P., & Hidayat, R. (2022). *Pemrograman Struktur Data*. Universitas Negeri Yogyakarta.  
-**Materi:** [UNY Repository - Pemrograman Struktur Data](https://eprints.uny.ac.id/80320/)  
-**Unduh PDF:** [https://eprints.uny.ac.id/80320/1/Struktur%20Data%20dan%20Pemrograman.pdf](https://eprints.uny.ac.id/80320/1/Struktur%20Data%20dan%20Pemrograman.pdf)
+[3]. Wijaya, H., Wardhono, W. S., & Arwani, I. (2018). **Implementasi Linked List pada Interaksi Antar Marker Augmented Reality untuk Operand dan Operator Aritmetika**. *Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer, 2*(9), 3328–3332.  
+**PDF:** [Unduh](https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/download/2261/840/16799)  
+**Laman jurnal:** [J-PTIIK UB](https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/2261)  
 
-[4] Prasetyo, H. (2019). *Penerapan Double Linked List pada Aplikasi Pengelolaan Data Mahasiswa*. *Jurnal Ilmiah Informatika Komputer*, 24(3), 15–22.  
-**Materi:** [Jurnal Universitas Dian Nuswantoro - Double Linked List](https://ejournal.dinus.ac.id/index.php/jik/article/view/2423)  
-**Unduh PDF:** [https://ejournal.dinus.ac.id/index.php/jik/article/download/2423/1361](https://ejournal.dinus.ac.id/index.php/jik/article/download/2423/1361)
+[4]. Ramadhan, H., Fauziah, & Lantana, D. A. (2023). **Perbandingan Algoritma Binary Search dan Sequential Search untuk Pencarian Persediaan Stok Barang Berbasis Web.** *STRING (Satuan Tulisan Riset dan Inovasi Teknologi)*, 8(2), 125–132.  
+**PDF:** [Unduh](https://www.journal.lppmunindra.ac.id/index.php/STRING/article/download/16475/6178)  
+**Laman jurnal:** [STRING Journal](https://www.journal.lppmunindra.ac.id/index.php/STRING/article/view/16475)  
+
+[5]. Rosalia, N. (2020). **Implementasi Struktur Data Doubly Linked List pada Pengelolaan Data Buku Perpustakaan Menggunakan C++**. *Jurnal Teknologi dan Sistem Informasi, 6*(1), 45–52.  
+**PDF:** [Unduh](https://ejournal.bsi.ac.id/ejurnal/index.php/teknosi/article/download/8431/5511)  
+**Laman jurnal:** [Jurnal TeknoSI](https://ejournal.bsi.ac.id/ejurnal/index.php/teknosi/article/view/8431)  
