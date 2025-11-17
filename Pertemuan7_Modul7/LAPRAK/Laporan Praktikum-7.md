@@ -462,7 +462,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan7_Modul7/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan7_Modul7/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
 
 Program C++ ini membuat sebuah stack berbasis array dan menjalankan operasi dasar seperti menambah data, menghapus data, menampilkan isi, dan membalik urutan elemen. Program mulai dengan membentuk stack kosong, lalu memasukkan beberapa nilai sesuai urutan yang sudah ditentukan. Setelah itu sebagian nilai diambil kembali menggunakan operasi pop. Program menampilkan seluruh isi stack, kemudian membalik susunan elemen menggunakan stack bantu untuk menunjukkan perubahan posisi data.
 
@@ -583,7 +583,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan7_Modul7/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan7_Modul7/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini menambahkan aturan penyisipan terurut dalam stack melalui fungsi pushAscending. Setiap nilai yang dimasukkan akan ditempatkan pada posisi yang benar agar isi stack tersusun naik tanpa memerlukan proses pengurutan tambahan. Program memakai stack sementara untuk menampung elemen yang lebih besar dari nilai baru. Setelah nilai baru berada pada posisi yang tepat, elemen yang disimpan sementara dikembalikan lagi ke stack utama. Hasil akhirnya menunjukkan susunan data yang selalu teratur sebelum dan sesudah proses pembalikan dilakukan.
 
@@ -697,7 +697,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan7_Modul7/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan7_Modul7/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
 
 Program C++ ini membaca satu baris masukan dari pengguna dan memasukkan setiap karakter angka ke dalam stack. Setiap digit yang terbaca diubah menjadi bilangan lalu disimpan dalam urutan masuknya. Setelah input selesai diproses, program menampilkan isi stack dan kemudian membalik urutannya dengan fungsi balikStack. Proses ini memperlihatkan bagaimana data dari input pengguna dapat disimpan, diolah, dan disusun ulang menggunakan konsep stack.
 
