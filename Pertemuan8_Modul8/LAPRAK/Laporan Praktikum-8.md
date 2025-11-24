@@ -473,7 +473,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan8_Modul8/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan8_Modul8/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
 
 Program C++ ini mengimplementasikan queue dengan head tetap di indeks 0, sehingga setiap operasi dequeue membutuhkan penggeseran seluruh elemen satu posisi ke kiri. Pendekatan ini paling mudah dipahami karena perilakunya menyerupai antrean nyata, namun kurang efisien karena proses shifting dilakukan pada setiap penghapusan elemen.
 
@@ -599,7 +599,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan8_Modul8/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan8_Modul8/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini menggunakan queue dengan head dan tail yang bergerak maju tanpa melakukan shifting. Implementasi ini lebih efisien dibanding Alternatif 1, namun dapat mengalami kondisi “penuh semu” ketika tail mencapai akhir array meskipun masih terdapat ruang kosong di awal akibat head sudah maju.
 
@@ -731,7 +731,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan8_Modul8/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan8_Modul8/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
 
 Program C++ ini menerapkan queue melingkar dengan memanfaatkan operasi modulo sehingga head dan tail dapat berputar kembali ke awal array. Pendekatan circular ini mengatasi penuh semu dan menghilangkan kebutuhan shifting, sehingga menjadi implementasi paling efisien dan optimal dalam penggunaan memori.
 
