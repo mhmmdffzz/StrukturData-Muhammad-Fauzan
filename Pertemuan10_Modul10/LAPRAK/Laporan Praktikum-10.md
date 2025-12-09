@@ -763,7 +763,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan9_Modul9/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan10_Modul10/LAPRAK/Muhammad_Fauzan-Output-Unguided1.png)
 
 Program C++ ini membangun dan memanfaatkan **Binary Search Tree (BST)** menggunakan konsep Abstract Data Type (ADT). Di dalamnya terdapat proses pembuatan node, penyisipan nilai ke dalam tree, pencarian nilai tertentu, serta menampilkan isi tree menggunakan traversal inorder.
 
@@ -988,7 +988,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan9_Modul9/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan10_Modul10/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 Program C++ ini mengimplementasikan Binary Search Tree (BST) yang tidak hanya mampu melakukan operasi dasar seperti penyisipan data dan pencetakan inorder, tetapi juga dilengkapi dengan fungsi tambahan untuk menghitung jumlah node, menghitung total nilai info dari seluruh node, serta menentukan kedalaman maksimum tree.
 
@@ -1107,7 +1107,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan9_Modul9/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan10_Modul10/LAPRAK/Muhammad_Fauzan-Output-Unguided3.png)
 
 Program C++ ini mengimplementasikan **Binary Search Tree (BST)** dengan fokus pada dua jenis traversal penting, yaitu **Pre-Order** dan **Post-Order**, selain tetap menyediakan traversal InOrder sebagai referensi. Program membangun tree menggunakan proses insert berbasis aturan BST, kemudian menampilkan hasil traversal sesuai urutan yang diminta.
 
@@ -1131,4 +1131,5 @@ HTML: https://www.mahirkoding.com/struktur-data-binary-search-tree-bst/
 HTML: https://morfotech.id/blog/morfogenesis-binary-search-tree-tutorial-konsep-dasar-implementasi-praktis
 
 [3]. BDS Telkom University. (2022). **Struktur Data Tree: Konsep, Jenis, dan Aplikasinya.**  
+
 HTML: https://bds.telkomuniversity.ac.id/struktur-data-tree-konsep-jenis-dan-aplikasinya/
