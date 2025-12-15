@@ -647,10 +647,10 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided1-1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided1-1.png)
 
 ##### Output 2
-![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided1-2.png)
+![Output Program 2](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided1-2.png)
 
 **Program C++ ini** digunakan untuk membangun struktur **Multi Linked List** dengan melakukan penambahan data pada list parent dan list child. Setiap parent merepresentasikan golongan hewan, sedangkan child berisi data hewan yang termasuk ke dalam golongan tersebut. Setelah seluruh data berhasil dimasukkan, program menampilkan struktur Multi Linked List untuk menunjukkan keterkaitan antara parent dan child secara hierarkis.
 
@@ -977,7 +977,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided2.png)
 
 **Program C++ ini** melakukan proses pencarian data hewan yang tidak memiliki ekor dengan cara menelusuri seluruh list child pada masing-masing node parent. Apabila data ditemukan, program akan menampilkan informasi lengkap mengenai data hewan tersebut, termasuk golongan hewannya serta posisi parent dan child di dalam struktur Multi Linked List.
 
@@ -1298,10 +1298,10 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Output Program 1](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided3-1.png)
+![Output Program 1](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided3-1.png)
 
 ##### Output 2
-![Output Program 2](https://github.com/mhmmdffzz/103112400064_Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided3-2.png)
+![Output Program 2](https://github.com/mhmmdffzz/StrukturData-Muhammad-Fauzan/blob/main/Pertemuan11_Modul13/LAPRAK/Muhammad_Fauzan-Output-Unguided3-2.png)
 
 **Program C++ ini** melakukan penghapusan node parent **G004 (Amfibi)** beserta seluruh data child yang dimilikinya. Setelah proses penghapusan selesai, struktur Multi Linked List ditampilkan kembali untuk memastikan bahwa node parent yang dihapus sudah tidak ada dan hubungan antar parent serta child lainnya tetap terjaga dengan baik.
 
@@ -1321,4 +1321,5 @@ HTML: https://www.trivusi.web.id/2022/07/struktur-data-linked-list.html
 
 [3]. RumahCoding. (2024). *Linked List: Pengertian dan Implementasi Dasar*.  
 Artikel ini menjelaskan pengertian linked list, kelebihan dan kekurangannya jika dibandingkan dengan array, serta operasinya.  
+
 HTML: https://rumahcoding.co.id/linked-list-pengertian-dan-implementasi-dasar/
